@@ -1,0 +1,36 @@
+Disable-UAC
+Enable-RemoteDesktop
+Enable-MicrosoftUpdate
+
+Set-WindowsExplorerOptions -EnableShowFileExtensions
+
+choco install powershell
+cinst cmder
+cinst notepad2
+cinst notepadplusplus.install
+cinst dropbox
+cinst winscp
+cinst keepass.install
+cinst wireshark
+cinst winrar
+cinst 
+cinst virtualbox
+cinst virtualbox.extensionpack
+cinst googlechrome
+cinst javaruntime
+cinst flashplayerplugin
+cinst flashplayeractivex
+cinst 7zip.install
+cinst adobereader
+cinst ccleaner
+cinst vlc
+cinst sysinternals
+cinst vcredist 2005
+cinst vcredist 2008
+cinst vcredist 2010
+cinst vcredist 2012
+cinst vcredist 2013
+cinst dotnet4.5
+
+
+Install-WindowsUpdate -installupdatesfromms -accepteula
